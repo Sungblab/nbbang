@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "엔빵하기 — 더치페이 정산 서비스",
     description: "모임, 회식, 배달 더치페이를 링크 하나로. 자동 금액 계산 + 입금 인증까지.",
-    images: [`${BASE_URL}/og-image.png`],
+    images: [`${BASE_URL}/OG_image.png`],
   },
   robots: {
     index: true,
