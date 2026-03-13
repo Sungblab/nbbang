@@ -46,6 +46,9 @@ export const metadata: Metadata = {
   },
   manifest: "/manifest.json",
   category: "finance",
+  verification: {
+    google: "PxfmFDZIIiYW7qK7pk6s17rsBKYeI43cV5s15D5D5Yo",
+  },
 };
 
 const jsonLd = {
