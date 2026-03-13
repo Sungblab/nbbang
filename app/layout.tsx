@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-const BASE_URL = "https://nbbang.vercel.app";
+const BASE_URL = "https://nbbang-haja.vercel.app";
 
 export const metadata: Metadata = {
   title: {
