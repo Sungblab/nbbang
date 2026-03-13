@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <!-- Black rounded square background -->
+  <rect width="48" height="48" rx="12" fill="#111111"/>
+  <!-- N letterform -->
+  <path d="M11 34V14L22 34V14" stroke="white" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Slash representing split/divide -->
+  <path d="M28 34L37 14" stroke="white" stroke-width="2.8" stroke-linecap="round"/>
+</svg>
