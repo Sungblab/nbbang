@@ -1,0 +1,22 @@
+{
+  "name": "엔빵하기",
+  "short_name": "엔빵하기",
+  "description": "더치페이 정산을 가장 쉽게. 방 만들고 링크 공유하면 끝.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#111111",
+  "lang": "ko",
+  "categories": ["finance", "utilities"],
+  "icons": [
+    {
+      "src": "/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "related_applications": [],
+  "prefer_related_applications": false
+}
