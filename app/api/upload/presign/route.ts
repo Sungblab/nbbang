@@ -10,6 +10,11 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "Missing fields" }, { status: 400 });
     }
 
+    const ALLOWED_CONTENT_TYPES = ["image/jpeg", "image/png", "image/webp", "image/heic", "image/heif"];
+    if (!ALLOWED_CONTENT_TYPES.includes(contentType)) {
+      return NextResponse.json({ error: "Invalid content type" }, { status: 400 });
+    }
+
     const key = `proofs/${roomId}/${participantId}/${uuidv4()}.${ext ?? "jpg"}`;
     const presignedUrl = await getUploadPresignedUrl(key, contentType);
 

@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -r process.env. /c/Users/Sungbin/Documents/GitHub/nbbang/app --include=*.ts --include=*.tsx)",
+      "Bash(grep -r \"CRON_SECRET\\\\|API_KEY\\\\|PRIVATE_KEY\\\\|ACCESS_KEY\\\\|SECRET\" /c/Users/Sungbin/Documents/GitHub/nbbang/app --include=*.ts --include=*.tsx)",
+      "Bash(grep -r \"TODO\\\\|FIXME\\\\|HACK\\\\|BUG\\\\|SECURITY\" /c/Users/Sungbin/Documents/GitHub/nbbang/app --include=*.ts --include=*.tsx)"
+    ]
+  }
+}
